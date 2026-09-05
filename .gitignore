@@ -1,0 +1,52 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# Visual Studio / Rider / local IDE files
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Unity crash / local build cache
+sysinfo.txt
+*.stackdump
+
+# Local JavaScript dependencies
+node_modules/
+
+# Nested package git metadata kept locally only while exporting the project
+Packages/com.reactunity.core/.git_codex_backup/
+Packages/com.reactunity.quickjs/.git_codex_backup/
+
+# Temporary analysis/debug artifacts from development sessions
+_analysis_domino_flow_video/
+_analysis_video_flow/
+_DisabledUnityImports/
+DisabledUnityAssetsBackup/
+ProjectBackups/
+dump_methods.txt
+unity_*.log
+unity_*.png
+hud_preview_simplified.png
+
+# Keep real project assets, embedded packages, and Builds in the repo.
+# APK/AAB files are handled by Git LFS through .gitattributes.

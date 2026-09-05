@@ -1,0 +1,107 @@
+{
+    "name": "ReactUnity",
+    "rootNamespace": "ReactUnity",
+    "references": [
+        "LibYoga",
+        "jsb.core",
+        "jsb.native",
+        "jsb.shared",
+        "jsb.editor.binding"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "ClearScript.Core.dll",
+        "ClearScript.V8.dll",
+        "Esprima.dll",
+        "ExCSS.dll",
+        "Jint.dll",
+        "websocket-sharp.dll",
+        "Newtonsoft.Json.dll",
+        "Acornima.dll",
+        "UnityEngine.UI.dll",
+        "Unity.TextMeshPro.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.vectorgraphics",
+            "expression": "",
+            "define": "REACT_VECTOR_GRAPHICS"
+        },
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "",
+            "define": "REACT_INPUT_SYSTEM"
+        },
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "",
+            "define": "REACT_TMP"
+        },
+        {
+            "name": "Unity",
+            "expression": "2021.2.0a0",
+            "define": "REACT_TEXTCORE"
+        },
+        {
+            "name": "com.reactunity.jint",
+            "expression": "",
+            "define": "REACT_JINT_AVAILABLE"
+        },
+        {
+            "name": "com.reactunity.clearscript",
+            "expression": "",
+            "define": "REACT_CLEARSCRIPT_AVAILABLE"
+        },
+        {
+            "name": "Unity",
+            "expression": "2021.2.0a",
+            "define": "REACT_UITOOLKIT"
+        },
+        {
+            "name": "com.reactunity.quickjs",
+            "expression": "",
+            "define": "REACT_QUICKJS_AVAILABLE"
+        },
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "3.2.0-pre.0",
+            "define": "REACT_TMP_X2"
+        },
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "[2.2.0-preview.0,3.0.0)",
+            "define": "REACT_TMP_X2"
+        },
+        {
+            "name": "cc.starlessnight.unity-jsb",
+            "expression": "",
+            "define": "REACT_QUICKJS_ORIGINAL"
+        },
+        {
+            "name": "cc.starlessnight.unity-jsb",
+            "expression": "",
+            "define": "REACT_QUICKJS_AVAILABLE"
+        },
+        {
+            "name": "Unity",
+            "expression": "2023.2",
+            "define": "REACT_TMP"
+        },
+        {
+            "name": "Unity",
+            "expression": "2023.2",
+            "define": "REACT_TMP_X2"
+        },
+        {
+            "name": "com.reactunity.jint",
+            "expression": "0.20.0",
+            "define": "REACT_JINT_ACORNIMA"
+        }
+    ],
+    "noEngineReferences": false
+}

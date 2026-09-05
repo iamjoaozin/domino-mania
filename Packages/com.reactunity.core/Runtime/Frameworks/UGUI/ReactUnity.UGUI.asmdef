@@ -1,0 +1,69 @@
+{
+    "name": "ReactUnity.UGUI",
+    "rootNamespace": "ReactUnity.UGUI",
+    "references": [
+        "ReactUnity",
+        "LibYoga"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "ClearScript.Core.dll",
+        "UnityEngine.UI.dll",
+        "Unity.TextMeshPro.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "!REACT_DISABLE_UGUI"
+    ],
+    "versionDefines": [
+        {
+            "name": "Unity",
+            "expression": "2021.2.0a0",
+            "define": "REACT_TEXTCORE"
+        },
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "",
+            "define": "REACT_TMP"
+        },
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "",
+            "define": "REACT_INPUT_SYSTEM"
+        },
+        {
+            "name": "com.unity.vectorgraphics",
+            "expression": "",
+            "define": "REACT_VECTOR_GRAPHICS"
+        },
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "3.2.0-pre.0",
+            "define": "REACT_TMP_X2"
+        },
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "[2.2.0-preview.0,3.0.0)",
+            "define": "REACT_TMP_X2"
+        },
+        {
+            "name": "com.nosuchstudio.rtltmpro",
+            "expression": "",
+            "define": "REACT_RTLTMPRO"
+        },
+        {
+            "name": "Unity",
+            "expression": "2023.2",
+            "define": "REACT_TMP"
+        },
+        {
+            "name": "Unity",
+            "expression": "2023.2",
+            "define": "REACT_TMP_X2"
+        }
+    ],
+    "noEngineReferences": false
+}

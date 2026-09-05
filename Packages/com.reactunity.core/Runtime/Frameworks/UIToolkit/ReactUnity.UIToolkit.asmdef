@@ -1,0 +1,44 @@
+{
+    "name": "ReactUnity.UIToolkit",
+    "rootNamespace": "ReactUnity.UIToolkit",
+    "references": [
+        "ReactUnity",
+        "LibYoga"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "ClearScript.Core.dll",
+        "Unity.TextMeshPro.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_EDITOR || UNITY_2021_2_OR_NEWER",
+        "UNITY_EDITOR || !REACT_DISABLE_UITOOLKIT"
+    ],
+    "versionDefines": [
+        {
+            "name": "Unity",
+            "expression": "2021.2.0a0",
+            "define": "REACT_TEXTCORE"
+        },
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "",
+            "define": "REACT_TMP"
+        },
+        {
+            "name": "com.unity.vectorgraphics",
+            "expression": "",
+            "define": "REACT_VECTOR_GRAPHICS"
+        },
+        {
+            "name": "Unity",
+            "expression": "2023.2",
+            "define": "REACT_TMP"
+        }
+    ],
+    "noEngineReferences": false
+}

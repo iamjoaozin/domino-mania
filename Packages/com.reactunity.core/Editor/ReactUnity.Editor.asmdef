@@ -1,0 +1,58 @@
+{
+    "name": "ReactUnity.Editor",
+    "rootNamespace": "ReactUnity.Editor",
+    "references": [
+        "ReactUnity",
+        "ReactUnity.UGUI",
+        "ReactUnity.UIToolkit",
+        "LibYoga",
+        "jsb.core",
+        "jsb.native",
+        "jsb.shared"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Jint.dll",
+        "ClearScript.Core.dll",
+        "Newtonsoft.Json.dll",
+        "UnityEngine.UI.dll",
+        "Unity.TextMeshPro.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "REACTUNITY_EDITOR_TOOLS_ENABLED"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.vectorgraphics",
+            "expression": "",
+            "define": "REACT_VECTOR_GRAPHICS"
+        },
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "",
+            "define": "REACT_INPUT_SYSTEM"
+        },
+        {
+            "name": "com.reactunity.clearscript",
+            "expression": "",
+            "define": "REACT_CLEARSCRIPT_AVAILABLE"
+        },
+        {
+            "name": "com.reactunity.jint",
+            "expression": "",
+            "define": "REACT_JINT_AVAILABLE"
+        },
+        {
+            "name": "com.reactunity.quickjs",
+            "expression": "",
+            "define": "REACT_QUICKJS_AVAILABLE"
+        }
+    ],
+    "noEngineReferences": false
+}

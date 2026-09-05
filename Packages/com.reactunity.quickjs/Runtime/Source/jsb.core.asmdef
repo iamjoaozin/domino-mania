@@ -1,0 +1,32 @@
+{
+    "name": "jsb.core",
+    "rootNamespace": "",
+    "references": [
+        "jsb.shared",
+        "jsb.native"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "!REACT_EXCLUDE_QUICKJS",
+        "!REACT_QUICKJS_ORIGINAL",
+        "!REACT_DISABLE_QUICKJS"
+    ],
+    "versionDefines": [
+        {
+            "name": "Unity",
+            "expression": "",
+            "define": "JSB_RUNTIME_REFLECT_BINDING"
+        },
+        {
+            "name": "Unity",
+            "expression": "",
+            "define": "JSB_UNITYLESS"
+        }
+    ],
+    "noEngineReferences": false
+}

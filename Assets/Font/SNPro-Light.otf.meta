@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 77c14224295a6af4298a0f184b0d7660
+timeCreated: 1780544159
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  externalObjects: {}
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - SN Pro
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData:
+  assetBundleName:
+  assetBundleVariant:

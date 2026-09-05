@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1691529088, guid: e4ecaa458e43ff1e3be935418e3b549c, type: 3}
+  m_Name: DominoSettings
+  m_EditorClassIdentifier:
+  <PointsEndMatch>k__BackingField: 100
+  <TimerSecsEndMatch>k__BackingField: 180
+  <TurnSecsPerPlayer>k__BackingField: 7
+  <ActiveAsistant>k__BackingField: 0
+  <AsistantSecsShow>k__BackingField: 5
+  <AsistantSecsHide>k__BackingField: 10
+  <StartRule>k__BackingField: 0
+  <RequireHighestDoubleFirstMove>k__BackingField: 0
+  <AutoPlayFirstMove>k__BackingField: 0
+  <UseCorrectDoubleScoring>k__BackingField: 0
+  <IgnoreIntermediateDoubles>k__BackingField: 1
+  <timeScaleOnDominoFeedback>k__BackingField: 0.15
+  <easeScaleOnDominoFeedback>k__BackingField: 81
+  <timeMoveOnDominoFeedback>k__BackingField: 0.12
+  <easeMoveOnDominoFeedback>k__BackingField: 30
